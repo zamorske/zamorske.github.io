@@ -1,55 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Ed Zamorski</title>
+  <title>Activity 1: HW_11_LEZ </title>
 </head>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
 
 <body>
-<p>The story of man named Ed who was bringing up 2 kids. A wife of gold who is from NC.</p>
-<p>This is a second paragragh of words that does not really have a point. Enjoy the newest addition to the web of doldrums</p>
-<img src = "http://lorempixel.com/output/nightlife-q-c-640-480-3.jpg" alt = "image of bar"/>
-<br>
-<li>
-    <strong><a href="https://www.gog.com">This is a bold link</a></strong>
-</li>
-<li>
-    <strong><a href="https://www.yahoo.com">This is a bold link</a></strong>
-</li>
-<br>
-<table border ="1">
-  <thead>
-    <tr>
-      <th colspan ="3">Things in table </th>
-    </tr>
-    <tr>
-      <th>Movies</th>
-      <th>Music</th>
-      <th>Books</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>Pulp Fiction</td>
-    <td>Nirvana</td>
-    <td>GOT</td>
-    </tr>
-    <tr>
-      <td>Braveheart</td>
-      <td>Green Day</td>
-      <td>Dune</td>
-    </tr>
-<tr>
-  <td>Police Academy</td>
-  <td>Doors</td>
-  <td>3 Little pigs</td>
-</tr>
-
-  </tbody>
-
-
-</table>
-
+    <!-- <nav class="navbar navbar-default"> -->
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+      <nav class="navbar navbar-default"> 
+     
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container-fluid">
+          <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Latitude and City Data anaylsis</a>
+        </div>
+        <div class="collapse navbar-collapse" id="dropdown1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">    
+                        <!-- aria-labelledby="dropdown1"    -->
+                        <li><a href="visual-template_1.html">Max Temperature</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="visual-template_2.html">Humidity</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="visual-template_3.html">Cloudiness</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="visual-template_4.html">Windspeed</a></li>
+                    </ul>
+                </li>
+              <li><a href="visual-1.html">Comparison</a></li>
+              <li><a href="citycsv.htm">Data</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+    </nav>    
+   <!--Row 2-->  
+ 
+   <div class="row">  
+      <div class="col-md-8">
+          
+          <div class="caption"><h2>Latitude vs Max Temp</h2>
+          <div class="thumbnail">
+          <img class="pull-left" src="Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp" width ="40%">
+        
+            
+          <!-- <div class="media body"> -->
+              <!-- <div class="pull-left"> <h3> -->
+                  <h3><em>This is a presentation of the Weather anaylsis for about 500 cities in varying latitudes covering the world. The OpenWeatherMap API
+            was used to determine weather realated information like Maximum temperature, Humidity,  cloudiness, Windspeed. After assembling the dataset
+            pandas was used to convert to dataframes and perform needed operations. Matplotlib and Seaborn was then used to plot the results of the analysis 
+            of latitude versus the other weather variables. This site provides the data and the visualizations created as part of the analysis. Observations 
+            and explanations of trends and correlations are also included. 
+            </em></h3>
+            </h3>
+           </div>
+          </div>
+        
+        </div>
+      <div class="col-md-4">
+          <h3>Visualizations</h3>
+          <img class="pull-left" src="Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp" width ="40%">
+          <img class="pull-left" src="Resources/assets/images/Fig2.png" alt="Latitude vs Max Temp" width ="40%">
+          <img class="pull-left" src="Resources/assets/images/Fig3.png" alt="Latitude vs Max Temp" width ="40%">
+          <img class="pull-left" src="Resources/assets/images/Fig4.png" alt="Latitude vs Max Temp" width ="40%">    
+        </div>
+      
+      </div><!-- /row 2 end-->
+    </div><!--.container-fluid-->
+    </div>
+  </nav>
+     
+    
+      
 </body>
-
 </html>

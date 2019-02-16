@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Activity 1: HW_11_LEZ </title>
+</head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          <nav class="navbar navbar-default"> 
+         
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="container-fluid">
+              <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">Latitude and City Data anaylsis</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">       
+                            <!-- <ul class="dropdown-menu" aria-labelledby="dropdown1"> -->
+                            <li><a href="visual-template_1.html">Max Temperature</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="visual-template_2.html">Humidity</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="visual-template_3.html">Cloudiness</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="visual-template_4.html">Windspeed</a></li>
+                        </ul>
+                    </li>
+                  <li><a href="visual-1.html">Comparison</a></li>
+                  <li><a href="citycsv.htm">Data</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+        </nav> 
+
+   <!--Row 2-->  
+ 
+   <div class="row">  
+      <div class="col-md-8">
+          
+          <div class="caption"><h2>Latitude vs Max Temp</h2>
+          <div class="thumbnail">
+          <img class="pull-left" src="Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp" width ="40%">
+        
+            
+          <!-- <div class="media body"> -->
+              <!-- <div class="pull-left"> <h3> -->
+                  <h3><em>This is a presentation of the Weather anaylsis for about 500 cities in varying latitudes covering the world. The OpenWeatherMap API
+            was used to determine weather realated information like Maximum temperature, Humidity,  cloudiness, Windspeed. After assembling the dataset
+            pandas was used to convert to dataframes and perform needed operations. Matplotlib and Seaborn was then used to plot the results of the analysis 
+            of latitude versus the other weather variables. This site provides the data and the visualizations created as part of the analysis. Observations 
+            and explanations of trends and correlations are also included. 
+            </em></h3>
+            </h3>
+           </div>
+          </div>
+        
+        </div>
+      <div class="col-md-4">
+          <h3>Visualization</h3>
+               </div>
+      
+      </div><!-- /row 2 end-->
+    </div><!--.container-fluid-->
+    </div>
+  </nav>
+     
+    
+      
+</body>
+</html>
